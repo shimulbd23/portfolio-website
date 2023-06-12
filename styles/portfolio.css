@@ -1,2 +1,40 @@
-font-family: 'Poppins',
-sans-serif;
+* {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+.text-primary {
+    color: #FD6E0A;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 250px;
+}
+
+.nav-title {
+    font-weight: 800;
+    font-size: 45px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+.btn-primary {
+    background: #FD6E0A;
+    border: 0;
+    border-radius: 5px;
+    padding: 18px 35px;
+    font-weight: 700;
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
