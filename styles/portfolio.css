@@ -38,3 +38,47 @@ nav li {
     font-weight: 700;
     color: #FFFFFF;
 }
+
+/* banner starts here  */
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 250px;
+}
+
+.banner-sub-title {
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 61px;
+    color: #474747;
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 85px;
+    line-height: 116px;
+    color: #181818;
+}
+
+.banner-description {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #757575;
+    margin: 20px 0 30px 0;
+
+}
+
+.contact {
+    padding: 18px 23px;
+    margin-left: 30px;
+    border-radius: 5px;
+    border-color: #FD6E0A;
+    color: #FD6E0A;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+
+}
